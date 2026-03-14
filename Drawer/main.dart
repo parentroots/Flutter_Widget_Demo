@@ -89,7 +89,7 @@ class HomeActivity extends StatelessWidget{
               padding: EdgeInsets.all(0),
                child: UserAccountsDrawerHeader(
                  decoration: BoxDecoration(color: Colors.white),
-                 accountName: Text("Rabbil Hasan",style: TextStyle(color: Colors.black)),
+                 accountName: Text("Ibrahim",style: TextStyle(color: Colors.black)),
                  accountEmail: Text("ebrahimnazmul20032@gmail.com",style: TextStyle(color: Colors.black)),
                  currentAccountPicture: Image.network("https://cdn.rabbil.com/photos/images/2022/11/04/rabbilVai.png"),
                  onDetailsPressed: (){MySnackBar("This is profile",context);},
@@ -125,8 +125,8 @@ class HomeActivity extends StatelessWidget{
                 padding: EdgeInsets.all(0),
                 child: UserAccountsDrawerHeader(
                   decoration: BoxDecoration(color: Colors.white),
-                  accountName: Text("Rabbil Hasan",style: TextStyle(color: Colors.black)),
-                  accountEmail: Text("Info@Rabbil.com",style: TextStyle(color: Colors.black)),
+                  accountName: Text("Ibrahim",style: TextStyle(color: Colors.black)),
+                  accountEmail: Text("ebrahimnazmul20032@gmail.com",style: TextStyle(color: Colors.black)),
                   currentAccountPicture: Image.network("https://cdn.rabbil.com/photos/images/2022/11/04/rabbilVai.png"),
                   onDetailsPressed: (){MySnackBar("This is profile",context);},
                 )
